@@ -8,6 +8,8 @@ import ContactUs from './components/Pages/ContactUs/ContactUs.js';
 import AdaptiveHeader from './components/Pages/AboutUs/AboutUs';
 import Gallery from './components/Pages/Gallery/Gallery';
 import InteriorDesign from './components/Pages/Gallery/InteriorDesign';
+import Archeticture from './components/Pages/Gallery/Archeticture';
+import ProjectInfo from './components/Pages/Proj/Proj';
 
 function App() {
 
@@ -19,7 +21,9 @@ function App() {
       <Route path="/ContactUs" component={ContactUs} />
       {/* <Route path="/AboutUs" component={AdaptiveHeader} /> */}
       <Route path="/Gallery" component={Gallery} />
-      <Route path="/InteriorDesign" component={InteriorDesign} />
+      <Route path="/InteriorDesign_Gallery" component={InteriorDesign} />
+      <Route path="/Archeticture_Gallery" component={Archeticture} />
+      <Route path="/ProjectInfo" component={ProjectInfo} />
     </Switch>
     </div>
   );
