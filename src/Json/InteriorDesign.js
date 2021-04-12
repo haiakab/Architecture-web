@@ -6,79 +6,157 @@ const InteriorDesignGaller=[
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/1.jpg',
-        id:"1"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+                    "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+                    "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+                    "img/InteriorDesign_Gallery/green1.jpg",
+                    "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"1",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/2.jpg',
-        id:"2"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"2",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/3.jpg',
-        id:"3"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"3",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/4.jpg',
-        id:"4"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"4",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/5.jpg',
-        id:"5"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"5",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/6.jpg',
-        id:"6"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"6",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/3.jpg',
-        id:"7"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"7",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/2.jpg',
-        id:"8"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"8",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/4.jpg',
-        id:"9"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"9",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/6.jpg',
-        id:"10"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"10",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/1.jpg',
-        id:"11"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"11",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/5.jpg',
-        id:"12"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"12",
+        category:"interior"
         // type:3
     },
     {
         name: "YD Project",
         imageUrl:'./img/InteriorDesign_Gallery/6.jpg',
-        id:"13"
+        materials: ["img/InteriorDesign_Gallery/Formayka_4049.jpg",
+        "img/InteriorDesign_Gallery/Formayka_2047_tp.jpg",
+        "img/InteriorDesign_Gallery/5111_full_slab.jpg",
+        "img/InteriorDesign_Gallery/green1.jpg",
+        "img/InteriorDesign_Gallery/NGY_80.png"],
+        id:"13",
+        category:"interior"
         // type:3
     }
     

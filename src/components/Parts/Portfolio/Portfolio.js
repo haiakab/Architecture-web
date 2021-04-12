@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import Masony from "react-masonry-component";
 import InteriorDesignGaller from '../../../Json/InteriorDesign';
 import ArchetictGallery from '../../../Json/Archetict';
+import Proj from '../../Pages/Proj/Proj';
 import "./Portfolio.css";
 
+// Gallery for reach Category- Using masonry Gallery
  class Portfolio extends React.Component {
   constructor(props){
     super(props);
@@ -16,6 +18,7 @@ import "./Portfolio.css";
         gutter: 30,
         itemSelector: ".photo-item",
       }
+      // show projects by type
       if(this.props.galleryType == "interior")
       var photos=InteriorDesignGaller;
       else if (this.props.galleryType == "archetict")
@@ -32,18 +35,19 @@ import "./Portfolio.css";
           disableImagesLoaded={false}
           updateOnEachImageLoad={false}
         >
+          {/* by click on each project - an information page will appear*/}
           {photos.map((photo) => (
-            <li className={`photo-item container hovereffect2`} >
-              <img src={photo.imageUrl} alt="" />
+            <a href="ProjectInfo"><li className={`photo-item container hovereffect2`} >
+              <img src={photo.imageUrl} alt=""/>
               <div class="card-img-overlay">
               <div class="overlay2 text-center hovereffect2">
                 <h2 class="mt-auto"><div >{photo.name}</div></h2>
               </div>
-              {/* <!-- <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>  --> */}
             </div>
             </li>
-          ))}
+            </a>
+          )
+          )}
         </Masony>
       </div>
     );  
