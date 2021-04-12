@@ -11,6 +11,8 @@ const InteriorDesignGaller=[
                     "img/InteriorDesign_Gallery/5111_full_slab.jpg",
                     "img/InteriorDesign_Gallery/green1.jpg",
                     "img/InteriorDesign_Gallery/NGY_80.png"],
+        detailedImages:[{img:"img/InteriorDesign_Gallery/7.jpg",
+                         info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum nunc lacus. Nullam finibus sodales enim, at posuere enim tristique accumsan. Etiam suscipit efficitur diam, non tincidunt lorem faucibus imperdiet. Nunc fringilla sem gravida dui efficitur, in molestie massa iaculis. In convallis magna ut erat porttitor dignissim. Nunc imperdiet sem in lectus tincidunt faucibus. Mauris feugiat nec leo eget auctor. Aenean elementum luctus vehicula.'}],
         id:"1",
         category:"interior"
         // type:3
@@ -23,6 +25,7 @@ const InteriorDesignGaller=[
         "img/InteriorDesign_Gallery/5111_full_slab.jpg",
         "img/InteriorDesign_Gallery/green1.jpg",
         "img/InteriorDesign_Gallery/NGY_80.png"],
+        detailedImages:[{img:"img/InteriorDesign_Gallery/7.jpg",info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum nunc lacus. Nullam finibus sodales enim, at posuere enim tristique accumsan. Etiam suscipit efficitur diam, non tincidunt lorem faucibus imperdiet. Nunc fringilla sem gravida dui efficitur, in molestie massa iaculis. In convallis magna ut erat porttitor dignissim. Nunc imperdiet sem in lectus tincidunt faucibus. Mauris feugiat nec leo eget auctor. Aenean elementum luctus vehicula.'}],
         id:"2",
         category:"interior"
         // type:3
@@ -35,6 +38,7 @@ const InteriorDesignGaller=[
         "img/InteriorDesign_Gallery/5111_full_slab.jpg",
         "img/InteriorDesign_Gallery/green1.jpg",
         "img/InteriorDesign_Gallery/NGY_80.png"],
+        detailedImages:[{img:"img/InteriorDesign_Gallery/7.jpg",info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum nunc lacus. Nullam finibus sodales enim, at posuere enim tristique accumsan. Etiam suscipit efficitur diam, non tincidunt lorem faucibus imperdiet. Nunc fringilla sem gravida dui efficitur, in molestie massa iaculis. In convallis magna ut erat porttitor dignissim. Nunc imperdiet sem in lectus tincidunt faucibus. Mauris feugiat nec leo eget auctor. Aenean elementum luctus vehicula.'}],
         id:"3",
         category:"interior"
         // type:3

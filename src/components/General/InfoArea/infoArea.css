@@ -1,0 +1,24 @@
+.infoArea
+{
+    height: 300px;
+}
+
+.infoBox
+{
+    height: 100%;
+}
+
+.infoBox p
+{
+    font-family: 'Cinzel', serif;
+    color: white;
+    border-width: 3px;
+   
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+}

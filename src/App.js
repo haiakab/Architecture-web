@@ -10,7 +10,7 @@ import Gallery from './components/Pages/Gallery/Gallery';
 import InteriorDesign from './components/Pages/Gallery/InteriorDesign';
 import Archeticture from './components/Pages/Gallery/Archeticture';
 import ProjectInfo from './components/Pages/Proj/Proj';
-import Simulate from './components/Pages/Proj/Simulate';
+import HomeSim from './components/Pages/Proj/HomeSim';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
       <Route path="/InteriorDesign_Gallery" component={InteriorDesign} />
       <Route path="/Archeticture_Gallery" component={Archeticture} />
       <Route path="/ProjectInfo" component={ProjectInfo} />
-      {/* <Route path="/Simulate" component={Simulate} /> */}
+      <Route path="/HomeSim" component={HomeSim} />
     </Switch>
     </div>
   );

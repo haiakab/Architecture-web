@@ -52,11 +52,11 @@
     }
     h2 {
       padding-top: 20%;
-      font-family: 'Droid Serif', serif;
+      -family: 'Droid Serif', serif;
     }
   
     p {
-      font-family: 'Julius Sans One', sans-serif;
+      -family: 'Julius Sans One', sans-serif;
     }
   
     .card:hover {
@@ -110,10 +110,10 @@
     text-align: center;
     position: relative;
     top: 45%;
-    font-size: 22px;
-    font-weight: bolder;
+    -size: 22px;
+    -weight: bolder;
     padding: 10px;
-    font-family: 'Cinzel', serif;
+    -family: 'Cinzel', serif;
     
     /* background: rgba(0, 0, 0, 0.6); */
   }

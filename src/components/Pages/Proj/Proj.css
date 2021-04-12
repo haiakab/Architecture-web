@@ -1,6 +1,6 @@
  .Proj-bg
 {
- height: 500px;
+ height: 600px;
  width: 100%;
  /* background-size: cover; */
 } 
@@ -10,13 +10,13 @@
     background-color:rgba(1, 1, 1, 0);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./3.JPG);
-    height: 500px;  
+    /* background-image: url(./3.JPG); */
+    height: 400px;  
 }
 
 .materials
 {
-   margin-top: 28%;
+   margin-top: 35%;
    margin-left: 58%;
   
 }
@@ -34,3 +34,8 @@
     width: 900px;
     height: 1200px;
 }
+
+model-viewer {
+    width: 1000px;
+    height: 900px;
+  }
