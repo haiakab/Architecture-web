@@ -2,14 +2,18 @@ import React, { Component } from 'react'
 import InteriorDesignGaller from '../../../Json/InteriorDesign';
 import Materials from '../../General/Materials/Materials';
 import HomeSim from './HomeSim';
-import InfoArea from '../../General/InfoArea/InfoArea';
+import InfoItem from '../../General/InfoArea/InfoItem';
+import ProjImage from '../../General/InfoArea/ProjImage'
+import ProjPorfolio from '../../Parts/Portfolio/ProjPorfolio'
 import './Proj.css'
 
+// information for each project - include 3dModel
 export default class Proj extends Component {     
     render() {
         const projDetails= InteriorDesignGaller[2].detailedImages.map((jsonItem) =>
-        <InfoArea item={jsonItem}/>
+        <InfoItem item={jsonItem}/>
     );
+    
          const photo = InteriorDesignGaller[2].imageUrl;
         return (
             <div>
@@ -19,9 +23,10 @@ export default class Proj extends Component {
                     <Materials />    
                     </div> 
                 </div> 
-                <HomeSim className="container-fluid m-0 " />
+                <HomeSim className="container m-0"/>
                 {projDetails}
-                {/* <InfoArea item={InteriorDesignGaller[2].detailedImages[1]}/> */}
+                <ProjPorfolio/>
+                {/* {projImages} */}
              </div>
         )
     }

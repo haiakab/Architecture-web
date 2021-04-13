@@ -11,6 +11,7 @@ import InteriorDesign from './components/Pages/Gallery/InteriorDesign';
 import Archeticture from './components/Pages/Gallery/Archeticture';
 import ProjectInfo from './components/Pages/Proj/Proj';
 import HomeSim from './components/Pages/Proj/HomeSim';
+import UserArea from './components/Pages/UserArea/UserArea';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Route path="/Archeticture_Gallery" component={Archeticture} />
       <Route path="/ProjectInfo" component={ProjectInfo} />
       <Route path="/HomeSim" component={HomeSim} />
+      <Route path="/UserArea" component={UserArea} />
     </Switch>
     </div>
   );

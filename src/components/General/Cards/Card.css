@@ -110,10 +110,10 @@
     text-align: center;
     position: relative;
     top: 45%;
-    -size: 22px;
-    -weight: bolder;
+    font-size: 22px;
+    font-weight: bolder;
     padding: 10px;
-    -family: 'Cinzel', serif;
+    font-family: 'Cinzel', serif;
     
     /* background: rgba(0, 0, 0, 0.6); */
   }

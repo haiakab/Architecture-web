@@ -1,6 +1,7 @@
 .infoArea
 {
     height: 300px;
+    margin-bottom: 100px;
 }
 
 .infoBox
@@ -12,13 +13,25 @@
 {
     font-family: 'Cinzel', serif;
     color: white;
-    border-width: 3px;
+    
    
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
 }
+
+.horiz-line {
+    border: 1px solid white;
+}
+
+.vert-line {
+    border: 1px solid white;
+   
+  }
+
+  .InfoSeparator
+  {
+      height: 10px;
+  }
+
+  .imageProj
+  {
+      height: 100px;
+  }
